@@ -215,14 +215,23 @@
         height: 50px;
         width:250px;
         background-color: #76a713;
-        border-radius: 25px;
-        color: white;
-        font-size: 20px;
+        border-radius: 25px;        
         font-weight: bold;
         margin: 20px auto;
         display: block;
-        
-        
+         border:none;
+         cursor: pointer;
+        transition: width 0.5s ease ;    
+    }
+    #supplybtn:hover{
+        width:255px;
+    }
+
+
+    #btn-clr{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
     }
 
     @media (max-width: 768px) {
@@ -311,7 +320,16 @@
 
 
 
+ @media (max-width: 768px) {
+    #strength {
+        flex-direction: column;
+        text-align: center;
+    }
 
+}
+        /*
+            footer
+        */
 
 
 
@@ -416,4 +434,10 @@
     border: none;
     margin-top: 20px;
     cursor: pointer;
+}
+.listL{
+    color:white;
+    text-decoration: none;
+    
+
 }
