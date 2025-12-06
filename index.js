@@ -1,7 +1,7 @@
 // Array of banner images
 const bannerImages = [
-    "/image/banner-3.avif",
-    "/image/banner2.png",
+    "image/banner-3.avif",
+    "image/banner2.png",
     
 ];
 
@@ -13,3 +13,4 @@ setInterval(() => {
     index = (index + 1) % bannerImages.length;  // infinite loop
     bannerPhoto.src = bannerImages[index];
 }, 3000); // change every 3s
+
