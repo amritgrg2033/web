@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#navCont{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+     background-color: white;
+     padding:15px 20px;
+     border-bottom: 1px solid black;
+     
+     
+    
+
+}
+#logo-img{
+    height: 120px;
+    width: 120px;
+    margin-right: 40px;
+    
+}
+.nav{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 8px 12px; 
+    color:black;
+    font-weight: 1000;
+    transition:border-bottom 0.2s;
+}
+.nav:hover{ 
+    border-bottom: 5px solid green;
+    
+}
+
+@media (max-width:768px)
+{
+    #navCont{
+        flex-wrap: wrap;
+
+    }
+    #logo-img{
+        height: 70px;
+        width: 70px;
+        margin:0;
+    }
+    .nav{
+        font-size: 15px;
+
+    }
+}
+
+
+
+
+
+/* Gallery Section */
+#gallery {
+    width: 100%;
+    padding: 50px 20px;
+    background: #f7f7f7;
+}
+
+.gallery-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Grid Layout */
+.gallery-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Gallery Images */
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.gallery-item img:hover {
+    transform: scale(1.08);
+}
+
+
+        /*
+            footer
+        */
+
+
+
+   #footer {
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+/* Footer Columns */
+.footer-c {
+    width: 250px;
+    margin: 20px;
+}
+
+/* Logo */
+#logo-e {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Text */
+#p-e {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* Brochure Button */
+#btn-e {
+    height: 40px;
+    width: 180px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    background-color: greenyellow;
+    border-radius: 8px;
+    margin: 25px 18px;
+    display: block;
+    border: none;
+    
+}
+
+/* Social Icons */
+#social {
+    display: flex;
+    margin-top: 10px;
+}
+
+.img-e {
+    height: 45px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/* Address Section */
+.info {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.info-img {
+    height: 22px;
+}
+
+.info-he {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Links List */
+#list-links li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Newsletter */
+.input {
+    height: 40px;
+    width: 100%;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+#sub {
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    background-color: blue;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.listL{
+    color:white;
+    text-decoration: none;
+    
+
+}
